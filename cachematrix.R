@@ -4,9 +4,11 @@
 ## PROBLEM STATEMENT
 ## CACHE THE CONTENT OF INVERSE OF MATRIX
 
-## Write a short comment describing this function
-## The fllowing function prepares and stores the result of
-## cache
+## makeCacheMatrix  creates a list containing a function to
+## set the value of the matrix
+## get the value of the matrix
+## set the value of the inverse of the matrix
+## get the value of the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse_m <- NULL
@@ -23,8 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-## The below function check whether inverse exists
+## The below function checks whether inverse exists
 ## If inverse exists it returns the result otherwise
 ## it calculates the inverse of matrix
 
